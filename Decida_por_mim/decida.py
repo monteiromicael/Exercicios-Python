@@ -1,9 +1,10 @@
 import random
+import PySimpleGUI as sg
 
-pergunta = input('Como posso te ajudar? ')
+pergunta = sg.popup_get_text("Como posso te ajudar? ")
 respostas = ['Com certeza, você deve fazer isso!',
-            'Não sei, você se sabe',
+            'Não sei, você que sabe',
             'Não faz isso Não!',
             'Acho que tá na hora certa!']
 
-print(random.choice(respostas))
+sg.popup(random.choice(respostas))
