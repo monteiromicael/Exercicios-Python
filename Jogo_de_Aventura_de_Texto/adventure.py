@@ -13,8 +13,8 @@ while True:
     if pergunta1 == 1:
         while True:
             print('Chegando perto você vê um caderno preto escrito Death Note na capa! você fica curioso e guarda o caderno com você!')
-            print('')
-            pergunta2 = int(input('1 - deseja se matar?'))
+            print('Quanto você no relógio, percebe que está atrasado para a entrevista, desesperado você olha ao seu redor procurando uma maneira de chegar a tempo')
+            pergunta2 = int(input('1 - Pedir um taxi\n2 - '))
         
             if pergunta2 == 1:
                 print('nice')
