@@ -6,12 +6,10 @@ palpite = int(input('Chute um numero! '))
 
 while True:
     if palpite > aleatorio:
-        print('Chute um Valor menor!')
-        palpite = int(input('Chute um numero! '))
+        palpite = int(input('Chute um Valor menor! '))
 
     elif palpite < aleatorio:
-        print("Chute um Valor Maior! ")
-        palpite = int(input('Chute um numero! '))
+        palpite = int(input('Chute um Valor Maior! '))
 
     elif palpite == aleatorio:
         print("Parabens Você Acertou!!")
