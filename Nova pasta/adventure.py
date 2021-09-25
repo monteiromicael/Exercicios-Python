@@ -1,10 +1,8 @@
-import player
 import PySimpleGUI as sg
 
-player = player.Player("Robson", 23)
 
 while True:
-    sg.popup("Olá, agora você se chama Robson. Um jovem que está a procura de um novo emprego.")
+    sg.popup("")
     sg.popup('Robson está indo para a DragonBall Inc fazer uma entrevista para uma vaga de zelador, no caminho você se depara com um objeto caindo do céu.')
 
 
